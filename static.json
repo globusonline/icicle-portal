@@ -1,0 +1,55 @@
+{
+  "_static": {
+    "generator": {
+      "name": "@globus/static-search-portal"
+    }
+  },
+  "data": {
+    "version": "1.0.0",
+    "attributes": {
+      "metadata": {
+        "title": "Search | Globus Search Portal"
+      },
+      "content": {
+        "headline": "Globus Search Portal"
+      },
+      "features": {
+        "transfer": false
+      },
+      "components": {
+        "Result": {
+          "heading": "entries[0].content.name",
+          "fields": [
+            {
+              "label": "Tags",
+              "property": "entries[0].content.tags"
+            },
+            {
+              "label": "Region",
+              "property": "entries[0].content.region"
+            }
+          ]
+        }
+      },
+      "globus": {
+        "search": {
+          "index": "78b92aca-e361-4307-8f66-bc448f20e2c3",
+          "facets": [
+            {
+              "name": "Tags",
+              "field_name": "tags",
+              "type": "terms",
+              "size": 10
+            },
+            {
+              "name": "Region",
+              "field_name": "region",
+              "type": "terms",
+              "size": 10
+            }
+          ]
+        }
+      }
+    }
+  }
+}
