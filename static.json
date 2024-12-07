@@ -14,7 +14,10 @@
         "headline": "Project Icicle"
       },
       "features": {
-        "transfer": false
+        "transfer": false,
+        "authentication": true,
+        "requireAuthentication": true,
+        "useLocalStorage": true
       },
       "components": {
         "Result": {
@@ -32,6 +35,9 @@
         }
       },
       "globus": {
+        "application": {
+          "client_id": "f79c5c65-31cb-4c4a-9573-5207fccac9a6"
+        },
         "search": {
           "index": "635b610a-4ea9-4761-825a-30dcde98adc9",
           "facets": [
