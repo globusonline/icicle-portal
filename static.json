@@ -21,15 +21,10 @@
       },
       "components": {
         "Result": {
-          "heading": "entries[0].content.name",
           "fields": [
             {
-              "label": "Tags",
-              "property": "entries[0].content.tags"
-            },
-            {
-              "label": "Region",
-              "property": "entries[0].content.region"
+              "label": "Content",
+              "property": "entries[0].content"
             }
           ]
         }
@@ -42,14 +37,14 @@
           "index": "635b610a-4ea9-4761-825a-30dcde98adc9",
           "facets": [
             {
-              "name": "Tags",
-              "field_name": "tags",
+              "name": "Group",
+              "field_name": "group_id",
               "type": "terms",
               "size": 10
             },
             {
-              "name": "Region",
-              "field_name": "region",
+              "name": "User",
+              "field_name": "user_id",
               "type": "terms",
               "size": 10
             }
