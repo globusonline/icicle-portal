@@ -20,6 +20,14 @@
         "useLocalStorage": true
       },
       "components": {
+        "ResultListing": {
+          "fields": [
+            {
+              "label": "Content",
+              "property": "entries[0].content"
+            }
+          ]
+        },
         "Result": {
           "fields": [
             {
