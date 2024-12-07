@@ -8,10 +8,10 @@
     "version": "1.0.0",
     "attributes": {
       "metadata": {
-        "title": "Search | Globus Search Portal"
+        "title": "Project Icicle"
       },
       "content": {
-        "headline": "Globus Search Portal"
+        "headline": "Project Icicle"
       },
       "features": {
         "transfer": false
@@ -33,7 +33,7 @@
       },
       "globus": {
         "search": {
-          "index": "78b92aca-e361-4307-8f66-bc448f20e2c3",
+          "index": "635b610a-4ea9-4761-825a-30dcde98adc9",
           "facets": [
             {
               "name": "Tags",
