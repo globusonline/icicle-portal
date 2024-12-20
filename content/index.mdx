@@ -1,0 +1,52 @@
+# Welcome!
+
+This is an experimental serverless search portal that introduces new ways to explore data in a Globus Search index.
+
+## Visualizations
+
+- [Treemap](/visualizations/treemap)
+
+
+## `from-static` Improvements
+
+To support this work, the following features are being explored in `@from-static`.
+
+### Arbitrary Dependency Support
+Implementation: [https://github.com/from-static/actions/pull/18](https://github.com/from-static/actions/pull/18)
+
+This feature allows downstream projects to specify arbitrary dependencies in their `package.json` file. This is useful when the targeted `generator` does not include the desired dependencies.
+
+This project is an example of this implementation based on its use of `d3` for many visualizations.
+
+
+- `d3` was added to the `package.json` file in this project 
+  – [https://github.com/globusonline/icicle/blob/main/package.json#L4](https://github.com/globusonline/icicle/blob/main/package.json#L4)
+
+- The `d3` package can then be referenced in `content` and `override` files.
+
+For example, the following code has been added to **this** MDX page.
+
+```js
+import * as d3 from 'd3';
+
+{(function(){
+  console.log(d3);
+}())}
+```
+import * as d3 from 'd3';
+
+{(function(){
+  console.log(d3);
+}())}
+
+
+
+
+
+
+
+
+
+
+
+
