@@ -21,7 +21,23 @@
       },
       "components": {
         "ResultListing": {
+          "heading": "entries[0].content.filename",
           "fields": [
+            {
+              "label": "Size",
+              "property": "entries[0].content.file_size",
+              "type": "bytes"
+            },
+            {
+              "label": "Modified",
+              "property": "entries[0].content.mod_time",
+              "type": "date"
+            },
+            {
+              "label": "Accessed",
+              "property": "entries[0].content.access_time",
+              "type": "date"
+            },
             {
               "label": "Content",
               "property": "entries[0].content"
